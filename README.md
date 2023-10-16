@@ -3,7 +3,8 @@
 This is work in progress project.
 The aim is to guide GAN to generate an image using grdual de-diffusion timesteps and the graidents from a noisy classifier trained on the base image dataset which are adulteratd from the same noise distribution, via multiple mini-GANs.
 
-![Guided GAN](https://github.com/raibot007/GuidedGAN/blob/main/GuidedGAN.jpg?raw=true)
+![GuidedGAN](https://github.com/raibot007/GuidedGAN/assets/46849811/3a541a1e-5db7-40e0-bcb3-70d3b8eb3425)
+
 
 The motivation is to get a regulated control over Fidelity Vs Diversity tradeoff on the state of the art GANs and improve the FID and other such metrics, as achived by guided diffusion performed by https://github.com/openai/guided-diffusion/
 
